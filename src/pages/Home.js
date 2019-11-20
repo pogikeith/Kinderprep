@@ -19,8 +19,10 @@ class Home extends React.Component {
           <div className="Home-Image">  
                   
                 <img src={Main}  alt="logo" />
-
-                
+          
+                <div className="Text-Home-Bottom"> 
+                Building a better and brighter future for your kids!
+                </div>    
             </div>
     
 

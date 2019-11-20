@@ -45,6 +45,7 @@ class App extends Component {
             <Route path='/register' component={Register}/>
             <Route path='/reviews' component={Reviews}/>
             <Route path='/schedule' component={Schedule}/>
+            
           </Switch>
 
           
