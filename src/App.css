@@ -6,12 +6,26 @@
   margin:  0px;
   padding: 0px; 
 }
+
+.App {
+  margin: 0px;
+  padding: 0px; 
+}
 /* navwrapper */
 .App-logo {
   display: flex;
   height: 18vmin;
   margin: 0px 0px 0px 0px;
   padding: 8px 0px 0px 0px;
+}
+
+@media(max-width: 650px) {
+  .App-logo {
+    width: 50%;
+    padding: 1px 0px 1px 1px; 
+    margin: 0px 0px 1px 0px; 
+    
+  }
 }
 
 .App-header {
@@ -34,7 +48,20 @@
   margin: 1px 0px 0px 1px;
  
 }
-
+@media(max-width: 650px) {
+  .Sun1 {
+    display: flex; 
+    height: 64px;
+    width: 88px;
+    position: absolute;
+    left: -1px;
+    top:0;
+    border: 0px solid rgb(241, 243, 243);
+    padding: 0px 0px 0px 1px;
+    margin: 0px 0px 0px 1px;
+    
+  }
+}
 
 .BoyL {
   display: flex;
@@ -47,6 +74,21 @@
   padding: 20px 0px 0px 1px;
   margin: 5px 0px 0px 0px;
  
+}
+
+@media(max-width: 650px) {
+  .BoyL {
+  display: flex;
+  height: 31px;
+  width: 16px;
+  position: absolute;
+  align-items: right;
+  right: 39px;
+  border: 0px solid rgb(241, 243, 243);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  top: 30px;
+  }
 }
 
 .BoyR {
@@ -62,6 +104,21 @@
  
 }
 
+@media(max-width: 650px) {
+  .BoyR {
+  display: flex;
+  height: 31px;
+  width: 16px;
+  position: absolute;
+  align-items: right;
+  left: 71px;
+  border: 0px solid rgb(241, 243, 243);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  top: 30px;
+  }
+}
+
 .GirlL {
   display:flex;
   height: 59px; 
@@ -73,6 +130,21 @@
   padding: 80px 0px 0px 1px;
   margin: 5px 0px 0px 0px;
  
+}
+
+@media(max-width: 650px) {
+  .GirlL {
+  display: flex;
+  height: 31px;
+  width: 16px;
+  position: absolute;
+  align-items: right;
+  right: 90px;
+  border: 0px solid rgb(241, 243, 243);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  top: 40px;
+  }
 }
 
 
@@ -89,6 +161,21 @@
  
 }
 
+@media(max-width: 650px) {
+  .GirlR {
+  display: flex;
+  height: 31px;
+  width: 16px;
+  position: absolute;
+  align-items: right;
+  left: 105px;
+  border: 0px solid rgb(241, 243, 243);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  top: 40px;
+  }
+}
+
 .CopyR {
   position: absolute;
   bottom: -2390px;
@@ -97,6 +184,16 @@
   left: 520px;
   padding: 0px 0px 9px 0px;
 
+}
+@media(max-width: 650px) {
+  .CopyR {
+    position: absolute;
+    bottom: -3527px;
+    width:12px 12px;
+    height: 30px;
+    left: 100px;
+    padding: 0px 0px 9px 0px;
+  }
 }
 
 h1{
@@ -109,6 +206,17 @@ h1{
   color: blue;
   padding: 8px;
 }
+@media(max-width: 650px) {
+  h1 {
+    position: absolute;
+    bottom: -3540px;
+    width:12px 12px;
+    height: 30px;
+    left: 20px;
+    padding: 0px 0px 9px 0px;
+  }
+}
+
 
 
 /* homepage// */
@@ -125,6 +233,19 @@ a {
   font-size: 20px;
 }
 
+@media(max-width: 650px) {
+  a {
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1.2px;
+
+  }
+}
+
 a:hover {
   background-color: rgb(18, 5, 94);
   letter-spacing: 1.55px;
@@ -133,6 +254,20 @@ a:hover {
   letter-spacing: 3px;
   font-size: 115%;
   color: rgb(220, 217, 238);
+}
+
+@media(max-width: 650px) {
+  a:hover {
+  background-color: skyblue;
+
+  letter-spacing: 1.5px;
+  text-decoration: none; 
+  transition: 0.4s;
+  letter-spacing: 3px;
+  font-size: 110%;
+  color: white;
+    
+  }
 }
 
 .nav-link-wrapper {
@@ -152,6 +287,8 @@ a:hover {
 }
 
 
+
+
 .heading-main {
   color: rgb(5, 5, 8); 
   font-family: 'Courier New', Courier, monospace;
@@ -167,6 +304,18 @@ a:hover {
   color: blue;
   font-weight: bold;
   font-size: 19px;
+}
+
+@media(max-width: 650px) {
+  .Text-Home {
+    text-align: center;
+    padding: 45px 0px 10px 25px; 
+    margin: 90px 0px 10px 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 19px;
+    
+  }
 }
 
 .Text-Home-Bottom {
@@ -187,6 +336,20 @@ a:hover {
   color: rgb(1, 1, 17);
   font-size: 19px;
   font-weight: bold;
+
+}
+
+
+@media(max-width: 650px) {
+  .heading-about {
+  text-align: center;
+  padding: 50px 0px 0px 0px; 
+  margin: 90px 0px 0px 23px;
+  color: rgb(1, 1, 17);
+  font-size: 19px;
+  font-weight: bold;
+  width: 100%; 
+  }
 }
 
 /* /reviews */
@@ -201,6 +364,21 @@ a:hover {
   font-weight: bold;
   font-size: 29px;
 }
+@media(max-width: 650px) {
+  .testimonials {
+  display: flex;
+  width: 19%;
+  margin: 59px 0px 0px 0px;
+  padding: 59px 0px 0px 220px;
+  color: rgb(1, 1, 17);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 29px;
+    
+  }
+}
+
+
 .text-reviews {
   display: flex; 
   width: 80%;
@@ -209,6 +387,18 @@ a:hover {
   padding: 25px 0px 0px 115px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+@media(max-width: 650px) {
+  .text-reviews {
+    display: flex; 
+    width: 75%;
+    font-size: 17px;
+    margin: 10px 0px 0px 85px;
+    padding: 20px 0px 0px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+}
+
 
 
 .Pencil {
@@ -221,6 +411,18 @@ a:hover {
   width: 290px;
   height: 850px;
 }
+@media(max-width: 650px) {
+  .Pencil {
+    display: flex;
+    position: absolute;
+    padding: 15px;
+    top: 499px;
+    width: 107px;
+    height: 370px;
+    
+  }
+}
+
 
 .about-teacher {
   display: flex;
@@ -231,6 +433,17 @@ a:hover {
   
 }
 
+@media(max-width: 650px) {
+  .about-teacher {
+    display: flex;
+    padding: 0px 0px 0px 65px;
+    margin: 0px 0px 0px 65px;
+    width: 54%;
+    flex-direction: column;
+    
+  }
+}
+
 .Amber {
   display: flex;
   position: absolute;
@@ -238,6 +451,17 @@ a:hover {
   bottom: 10px;
   height: 263px;
   width: 200px;
+}
+@media(max-width: 650px) {
+  .Amber {
+  display: flex;
+  position: absolute;
+  right: 26px;
+  bottom: -55px;
+  height: 119px;
+  width: 90px;
+    
+  }
 }
 
 .Jill {
@@ -251,6 +475,19 @@ a:hover {
 
 }
 
+@media(max-width: 650px) {
+  .Jill {
+  display: flex;
+  position: absolute;
+  right: 26px;
+  bottom: -630px;
+  height: 119px;
+  width: 90px;
+    
+  }
+}
+
+
 .Room1 {
  display: flex;
  flex-direction: column;
@@ -258,6 +495,18 @@ a:hover {
  margin: 5px;
  height: 238px;
  width: 335px;
+}
+
+@media(max-width: 650px) {
+  .Room1 {
+  display: flex;
+  position: absolute;
+  right: 2px;
+  bottom: -2230px;
+  height: 119px;
+  width: 168px;
+    
+  }
 }
 
 .Room2 {
@@ -269,28 +518,75 @@ a:hover {
   width: 335px;
 }
 
+@media(max-width: 650px) {
+  .Room2 {
+  display: flex;
+  position: absolute;
+  right: 355px;
+  bottom: -2230px;
+  height: 119px;
+  width: 168px;
+    
+  }
+}
+
 .Room3 {
   display: flex;
   padding: 5px;
   flex-direction: column;
- margin: 5px;
+  margin: 5px;
   height: 238px;
   width: 335px;
+}
+
+@media(max-width: 650px) {
+  .Room3 {
+    
+      display: flex;
+      position: absolute;
+      right: 179px;
+      bottom: -2230px;
+      height: 119px;
+      width: 168px;
+    
+  }
 }
 
 .Crayon {
   display: flex;
   position: absolute;
   padding: 15px;
-  top: 250px;
+  top: 300px;
   width: 130px;
   height: 1000px;
 
 }
 
+@media(max-width: 650px) {
+  .Crayon {
+  display: flex;
+  position: absolute;
+  padding: 7px;
+  top: 495px;
+  width: 98px;
+  height: 750px;
+    
+  }
+}
+
 .threepics {
   display: flex;
   padding: 3px 0px 0px 119px;
+}
+
+@media(max-width: 650px) {
+  .threepics {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 13px 0px 0px 11px;
+
+    
+  }
 }
 
 /* curriculum */
@@ -308,6 +604,23 @@ a:hover {
   font-size: 19px;
 }
 
+@media(max-width: 650px) {
+  .header-cur {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  right: 50px;
+  width: 73%;
+  margin: 65px 0px 0px 0px;
+  padding: 55px 0px 0px 0px;
+  color: rgb(1, 1, 17);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+    
+  }
+}
+
 .header-cur-body {
   display: flex;
   width: 69%;
@@ -317,6 +630,18 @@ a:hover {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
   font-size: 19px;
+}
+@media(max-width: 650px) {
+  .header-cur-body {
+    display: flex;
+    width: 78%;
+    margin: 37px 0px 0px 35px;
+    padding: 279px 0px 0px 70px;
+    color: rgb(1, 1, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    
+  }
 }
 
 .Zoo-Phonics {
@@ -331,6 +656,22 @@ a:hover {
   
   font-size: 19px;
 }
+@media(max-width: 650px) {
+  .Zoo-Phonics {
+    display: flex;
+    flex-direction: column;
+    top: 2px;
+    width: 89%;
+    margin: 2px 0px 0px 10px;
+    padding: 20px 0px 0px 12px;
+    color: rgb(1, 1, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: 18px;
+    
+  }
+}
+
 
 .DISTAR {
   display: flex;
@@ -343,6 +684,21 @@ a:hover {
   
   font-size: 19px;
 }
+@media(max-width: 650px) {
+  .DISTAR {
+    display: flex;
+    flex-direction: column;
+    top: 2px;
+    width: 89%;
+    margin: 2px 0px 0px 10px;
+    padding: 20px 0px 0px 12px;
+    color: rgb(1, 1, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: 18px;
+    
+  }
+}
 
 .list1 {
   display: flex;
@@ -354,6 +710,18 @@ a:hover {
   
 }
 
+@media(max-width: 650px) {
+  .list1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+    padding: 15px 0px 0px 19px; 
+    margin: 10px 0px 0px 10px;
+    
+  }
+}
+
 .list2 {
   display: flex;
   flex-direction: column;
@@ -362,6 +730,17 @@ a:hover {
   
   padding: 5px 0px 0px 19px; 
   margin: 0px 0px 0px 10px;
+}
+@media(max-width: 650px) {
+  .list2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+    padding: 15px 0px 0px 19px; 
+    margin: 10px 0px 0px 10px;
+    
+  }
 }
 
 .list3 {
@@ -373,6 +752,17 @@ a:hover {
   padding: 5px 0px 0px 19px; 
   margin: 0px 0px 0px 10px;
 }
+@media(max-width: 650px) {
+  .list3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+    padding: 15px 0px 0px 19px; 
+    margin: 10px 0px 0px 10px;
+    
+  }
+}
 
 .list4 {
   display: flex;
@@ -381,6 +771,17 @@ a:hover {
   left: 209px;
   padding: 5px 0px 0px 19px; 
   margin: 0px 0px 0px 10px;
+}
+@media(max-width: 650px) {
+  .list4 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+    padding: 15px 0px 0px 19px; 
+    margin: 10px 0px 0px 10px;
+    
+  }
 }
 
 .list5 {
@@ -391,6 +792,17 @@ a:hover {
   
   padding: 5px 0px 0px 19px; 
   margin: 0px 0px 0px 10px;
+}
+@media(max-width: 650px) {
+  .list5 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+    padding: 15px 0px 0px 19px; 
+    margin: 10px 0px 0px 10px;
+    
+  }
 }
 
 .Pencilc {
@@ -404,6 +816,18 @@ a:hover {
   height: 850px;
 }
 
+@media(max-width: 650px) {
+  .Pencilc {
+  display: flex;
+  position: absolute;
+  padding: 15px;
+  top: 499px;
+  width: 107px;
+  height: 370px;
+    
+  }
+}
+
 .dinodig {
   display: flex;
   flex-direction: column;
@@ -411,6 +835,18 @@ a:hover {
   right: 97px;
   top: 539px;
   padding: 0px 0px 0px 0px;
+}
+
+@media(max-width: 650px) {
+  .dinodig {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 13px;
+  top: 1059px;
+  padding: 0px 0px 0px 0px;
+  font-size: 11px;
+  }
 }
 
 .Dinodig {
@@ -422,6 +858,16 @@ a:hover {
   width: 321px;
 }
 
+@media(max-width: 650px) {
+  .Dinodig {
+    padding: 5px;
+    margin: 5px;
+    height: 114px;
+    width: 161px;
+    
+  }
+}
+
 .Dinodig2 {
   
   
@@ -431,6 +877,16 @@ a:hover {
   width: 238px;
 }
 
+@media(max-width: 650px) {
+  .Dinodig2 {
+    padding: 5px;
+    margin: 5px;
+    height: 114px;
+    width: 161px;
+    
+  }
+}
+
 .Dinodig3 {
   
   
@@ -438,6 +894,15 @@ a:hover {
   margin: 5px;
   height: 227px;
   width: 321px;
+}
+@media(max-width: 650px) {
+  .Dinodig3 {
+    padding: 5px;
+    margin: 5px;
+    height: 114px;
+    width: 161px;
+    
+  }
 }
 
 /* dailysched */
@@ -455,8 +920,9 @@ a:hover {
   font-size: 19px;
 }
 
+
 #students {
-  left: 300px;
+  left: 185px;
   top: 150px;
   font-weight: bold;
   position: relative;
@@ -464,12 +930,31 @@ a:hover {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-collapse: collapse;
   border: 1px solid rgb(12, 9, 9);
-  width: 65%;
+  width: 69%;
+}
+@media(max-width: 650px) {
+  #students {
+    display: flex;
+    position: absolute;
+    right: 17px;
+    align-self: center;
+    margin: 10px 0px 0px -29px;
+    top: 450px;
+    font-size: 14px;
+    
+  }
 }
 
 #students td, #students th {
   border: 1px solid rgb(12, 11, 14);
   padding: 4px;
+}
+@media(max-width: 650px) {
+  #students td, #students th {
+    border: 0.25px solid rgb(12, 11, 14);
+    padding: 1px;
+    
+  }
 }
 
 #students tr:nth-child(even){background-color: #f2f2f2;}
@@ -477,12 +962,23 @@ a:hover {
 #students tr:hover {background-color: #ddd;}
 
 #students th {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   text-align: center;
   background-color: blue;
   color: white;
 }
+@media(max-width: 650px) {
+  #students th {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+    
+  }
+}
+
 
 h4 {
   display: flex;
@@ -492,6 +988,18 @@ h4 {
   top: 220px;
   font-size: 19px;
 
+}
+@media(max-width: 650px) {
+  h4 {
+    display: flex;
+    position: absolute;
+    right: 18px;
+    align-self: center;
+    margin: 15px 0px 0px 5px;
+    top: 400px;
+    font-size: 19px;
+    
+  }
 }
 
 /* calendar */
@@ -510,6 +1018,23 @@ h4 {
   font-weight: bold;
   font-size: 19px;
 }
+@media(max-width: 650px) {
+  .heading-calendar {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  right: 35px;
+  top: 410px;
+  width: 79%;
+  margin: 1px 0px 0px 10px;
+  padding: 1px 0px 0px 0px;
+  color: rgb(1, 1, 17);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+    
+  }
+}
 
 .heading-events {
   display: flex;
@@ -526,6 +1051,25 @@ h4 {
   font-size: 19px;
 }
 
+@media(max-width: 650px) {
+  .heading-events {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    right: 0px;
+    top: 500px;
+    width: 69%;
+    margin: 1px 0px 0px 10px;
+    padding: 1px 0px 0px 0px;
+    color: rgb(1, 1, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    
+  }
+}
+
+
 .calendar-dates {
   display: flex;
   flex-direction: column;
@@ -537,6 +1081,22 @@ h4 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 19px;
+}
+@media(max-width: 650px) {
+  .calendar-dates {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  RIGHT: 230px;
+  top: 529px;
+  padding: 10px 1px 0px 0px;
+  margin: 10px 1px 1px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  color: blue;
+    
+  }
 }
 button > a {
   display: flex;
@@ -574,6 +1134,17 @@ button > a:hover {
   top: 509px;
   padding: 0px 0px 0px 0px;
 }
+@media(max-width: 650px) {
+  .firepics {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 329px;
+    top: 542px;
+    padding: 0px 0px 0px 0px;
+    
+  }
+}
 
 .fire {
   
@@ -583,6 +1154,15 @@ button > a:hover {
   height: 238px;
   width: 335px;
 }
+@media(max-width: 650px) {
+  .fire {
+  padding: 5px;
+  margin: 10px;
+  height: 119px;
+  width: 168px;
+    
+  }
+}
 
 .fire1 {
   
@@ -590,6 +1170,15 @@ button > a:hover {
   margin: 10px;
   height: 238px;
   width: 335px;
+}
+@media(max-width: 650px) {
+  .fire1 {
+  padding: 5px;
+  margin: 10px;
+  height: 119px;
+  width: 168px;
+    
+  }
 }
 
 .fire2 {
@@ -599,6 +1188,15 @@ button > a:hover {
   margin: 10px;
   height: 238px;
   width: 335px;
+}
+@media(max-width: 650px) {
+  .fire2 {
+  padding: 5px;
+  margin: 10px;
+  height: 119px;
+  width: 168px;
+    
+  }
 }
 
 /* policies */
@@ -611,6 +1209,17 @@ button > a:hover {
   font-size: 29px;
   font-weight: bold;
 }
+@media(max-width: 650px) {
+  .Policies {
+  text-align: center;
+  padding: 0px 0px 0px 30px; 
+  margin: 125px 0px 0px 25px;
+  color: rgb(1, 1, 17);
+  font-size: 29px;
+  font-weight: bold;
+    
+  }
+}
 
 
 .policies-body {
@@ -619,6 +1228,16 @@ button > a:hover {
   margin: 10px 0px 0px 140px;
   width: 60%;
   flex-direction: column;
+}
+@media(max-width: 650px) {
+  .policies-body {
+    display: flex;
+    padding: 10px 0px 10px 50px;
+    margin: 10px 0px 0px 50px;
+    width: 75%;
+    flex-direction: column;
+    
+  }
 }
 
 .Pencil-pol {
@@ -630,6 +1249,18 @@ button > a:hover {
   padding: 0px 0px 0px 0px;
   width: 290px;
   height: 850px;
+}
+
+@media(max-width: 650px) {
+  .Pencil-pol {
+    display: flex;
+    position: absolute;
+    padding: 15px;
+    top: 499px;
+    width: 107px;
+    height: 370px;
+    
+  }
 }
 
 .contact1 > a {
@@ -644,6 +1275,7 @@ button > a:hover {
   padding: 12px 30px;
 }
 
+/* /.Registration */
 .Registration {
   display: flex;
   flex-direction: column;
@@ -653,6 +1285,20 @@ button > a:hover {
   padding: 0px 0px 0px 0px;
   width: 275px;
   height: 220px;
+}
+
+@media(max-width: 650px) {
+  .Registration {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 310px;
+  top: 1065px;
+  padding: 0px 0px 0px 0px;
+  width: 125px;
+  height: 99px;
+    
+  }
 }
 
 .Registration2 {
@@ -665,6 +1311,59 @@ button > a:hover {
   width: 204px;
   height: 275px;
 }
+@media(max-width: 650px) {
+  .Registration2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 170px;
+  top: 1065px;
+  padding: 0px 0px 0px 0px;
+  width: 125px;
+  height: 99px;
+    
+  }
+}
+.regist-body {
+  display: flex;
+  padding: 25px 0px 10px 130px;
+  margin: 10px 0px 0px 140px;
+  width: 60%;
+  flex-direction: column;
+  font-size: 17px;
+}
+@media(max-width: 650px) {
+  .regist-body {
+    display: flex;
+    padding: 10px 0px 0px 55px;
+    margin: 10px 0px 0px 55px;
+    width: 72%;
+    flex-direction: column;
+    
+  }
+}
+
+h5 {
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media(max-width: 650px) {
+  h5 {
+   font-size: 19px;
+   margin: 1px;
+  }
+}
+
+
+
+
+
 
 /* contactus */
 
@@ -678,6 +1377,18 @@ button > a:hover {
   color:blue;
   font-weight: bold;
 
+}
+@media(max-width: 650px) {
+  .Contact-Form  {
+    max-width: 420px;
+    position: absolute;
+    right: 0px;
+    top: 610px;
+    margin: 0 auto;
+    text-align: left;
+    color:blue;
+    font-weight: bold;
+  }
 }
 
 .container {
@@ -721,6 +1432,18 @@ input[type=submit]:hover {
   font-weight: bold;
   
 }
+@media(max-width: 650px) {
+  .contactus-body {
+    display: flex;
+    padding: 105px 0px 10px 100px;
+    margin: 25px 0px 0px 35px;
+    width: 74%;
+    flex-direction: column;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+}
 
 
 @media(max-width: 650px) {
@@ -735,13 +1458,23 @@ input[type=submit]:hover {
 
 @media(max-width: 650px) {
   .nav-link-wrapper {
+    display: flex;
     flex-direction: column;
-    
-    padding: 1px 0px 3px 7px; 
-    margin: 2px 1px 2px 7px; 
+    background-color: white;
+    padding: 98px 0px 0px 37px; 
+    margin: 6px 0px 0px 17px; 
     
   }
 }
+
+@media(max-width: 650px) {
+  .text {
+    
+    
+    
+  }
+}
+
 
 @media(max-width: 650px) {
   .text {
