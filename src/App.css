@@ -19,7 +19,7 @@
   padding: 8px 0px 0px 0px;
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .App-logo {
     width: 50%;
     padding: 1px 0px 1px 1px; 
@@ -48,7 +48,7 @@
   margin: 1px 0px 0px 1px;
  
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .Sun1 {
     display: flex; 
     height: 64px;
@@ -76,7 +76,7 @@
  
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .BoyL {
   display: flex;
   height: 31px;
@@ -104,7 +104,7 @@
  
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .BoyR {
   display: flex;
   height: 31px;
@@ -132,7 +132,7 @@
  
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .GirlL {
   display: flex;
   height: 31px;
@@ -161,7 +161,7 @@
  
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .GirlR {
   display: flex;
   height: 31px;
@@ -185,7 +185,7 @@
   padding: 0px 0px 9px 0px;
 
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .CopyR {
     position: absolute;
     bottom: -3527px;
@@ -206,7 +206,7 @@ h1{
   color: blue;
   padding: 8px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   h1 {
     position: absolute;
     bottom: -3540px;
@@ -233,7 +233,7 @@ a {
   font-size: 20px;
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   a {
     display: flex;
     flex-direction: column;
@@ -256,7 +256,7 @@ a:hover {
   color: rgb(220, 217, 238);
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   a:hover {
   background-color: skyblue;
 
@@ -306,7 +306,7 @@ a:hover {
   font-size: 19px;
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .Text-Home {
     text-align: center;
     padding: 45px 0px 10px 25px; 
@@ -340,7 +340,7 @@ a:hover {
 }
 
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .heading-about {
   text-align: center;
   padding: 50px 0px 0px 0px; 
@@ -364,7 +364,7 @@ a:hover {
   font-weight: bold;
   font-size: 29px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .testimonials {
   display: flex;
   width: 19%;
@@ -387,7 +387,7 @@ a:hover {
   padding: 25px 0px 0px 115px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .text-reviews {
     display: flex; 
     width: 75%;
@@ -411,7 +411,7 @@ a:hover {
   width: 290px;
   height: 850px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Pencil {
     display: flex;
     position: absolute;
@@ -433,7 +433,7 @@ a:hover {
   
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .about-teacher {
     display: flex;
     padding: 0px 0px 0px 65px;
@@ -452,11 +452,11 @@ a:hover {
   height: 263px;
   width: 200px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Amber {
   display: flex;
   position: absolute;
-  right: 26px;
+  right: 6px;
   bottom: -55px;
   height: 119px;
   width: 90px;
@@ -475,12 +475,12 @@ a:hover {
 
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Jill {
   display: flex;
   position: absolute;
-  right: 26px;
-  bottom: -630px;
+  right: 6px;
+  bottom: -650px;
   height: 119px;
   width: 90px;
     
@@ -497,7 +497,7 @@ a:hover {
  width: 335px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Room1 {
   display: flex;
   position: absolute;
@@ -518,7 +518,7 @@ a:hover {
   width: 335px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Room2 {
   display: flex;
   position: absolute;
@@ -539,7 +539,7 @@ a:hover {
   width: 335px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Room3 {
     
       display: flex;
@@ -562,7 +562,7 @@ a:hover {
 
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Crayon {
   display: flex;
   position: absolute;
@@ -579,7 +579,7 @@ a:hover {
   padding: 3px 0px 0px 119px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .threepics {
     display: flex;
     flex-direction: row-reverse;
@@ -604,7 +604,7 @@ a:hover {
   font-size: 19px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .header-cur {
   display: flex;
   position: absolute;
@@ -631,7 +631,7 @@ a:hover {
   
   font-size: 19px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .header-cur-body {
     display: flex;
     width: 78%;
@@ -656,7 +656,7 @@ a:hover {
   
   font-size: 19px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Zoo-Phonics {
     display: flex;
     flex-direction: column;
@@ -684,7 +684,7 @@ a:hover {
   
   font-size: 19px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .DISTAR {
     display: flex;
     flex-direction: column;
@@ -710,7 +710,7 @@ a:hover {
   
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .list1 {
     display: flex;
     flex-direction: column;
@@ -731,7 +731,7 @@ a:hover {
   padding: 5px 0px 0px 19px; 
   margin: 0px 0px 0px 10px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .list2 {
     display: flex;
     flex-direction: column;
@@ -752,7 +752,7 @@ a:hover {
   padding: 5px 0px 0px 19px; 
   margin: 0px 0px 0px 10px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .list3 {
     display: flex;
     flex-direction: column;
@@ -772,7 +772,7 @@ a:hover {
   padding: 5px 0px 0px 19px; 
   margin: 0px 0px 0px 10px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .list4 {
     display: flex;
     flex-direction: column;
@@ -793,7 +793,7 @@ a:hover {
   padding: 5px 0px 0px 19px; 
   margin: 0px 0px 0px 10px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .list5 {
     display: flex;
     flex-direction: column;
@@ -816,7 +816,7 @@ a:hover {
   height: 850px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Pencilc {
   display: flex;
   position: absolute;
@@ -837,7 +837,7 @@ a:hover {
   padding: 0px 0px 0px 0px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .dinodig {
   display: flex;
   flex-direction: column;
@@ -858,7 +858,7 @@ a:hover {
   width: 321px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Dinodig {
     padding: 5px;
     margin: 5px;
@@ -877,7 +877,7 @@ a:hover {
   width: 238px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Dinodig2 {
     padding: 5px;
     margin: 5px;
@@ -895,7 +895,7 @@ a:hover {
   height: 227px;
   width: 321px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .Dinodig3 {
     padding: 5px;
     margin: 5px;
@@ -932,7 +932,7 @@ a:hover {
   border: 1px solid rgb(12, 9, 9);
   width: 69%;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   #students {
     display: flex;
     position: absolute;
@@ -949,7 +949,7 @@ a:hover {
   border: 1px solid rgb(12, 11, 14);
   padding: 4px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   #students td, #students th {
     border: 0.25px solid rgb(12, 11, 14);
     padding: 1px;
@@ -968,7 +968,7 @@ a:hover {
   background-color: blue;
   color: white;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   #students th {
   padding-top: 3px;
   padding-bottom: 3px;
@@ -989,7 +989,7 @@ h4 {
   font-size: 19px;
 
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   h4 {
     display: flex;
     position: absolute;
@@ -1018,7 +1018,7 @@ h4 {
   font-weight: bold;
   font-size: 19px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .heading-calendar {
   display: flex;
   position: absolute;
@@ -1051,7 +1051,7 @@ h4 {
   font-size: 19px;
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .heading-events {
     display: flex;
     position: absolute;
@@ -1082,7 +1082,7 @@ h4 {
   font-weight: bold;
   font-size: 19px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .calendar-dates {
   display: flex;
   flex-direction: column;
@@ -1134,7 +1134,7 @@ button > a:hover {
   top: 509px;
   padding: 0px 0px 0px 0px;
 }
-@media(max-width: 650px) {
+@media(max-width: 514px) {
   .firepics {
     display: flex;
     flex-direction: column;
@@ -1154,7 +1154,7 @@ button > a:hover {
   height: 238px;
   width: 335px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .fire {
   padding: 5px;
   margin: 10px;
@@ -1171,7 +1171,7 @@ button > a:hover {
   height: 238px;
   width: 335px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .fire1 {
   padding: 5px;
   margin: 10px;
@@ -1189,7 +1189,7 @@ button > a:hover {
   height: 238px;
   width: 335px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .fire2 {
   padding: 5px;
   margin: 10px;
@@ -1209,7 +1209,7 @@ button > a:hover {
   font-size: 29px;
   font-weight: bold;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .Policies {
   text-align: center;
   padding: 0px 0px 0px 30px; 
@@ -1229,7 +1229,7 @@ button > a:hover {
   width: 60%;
   flex-direction: column;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .policies-body {
     display: flex;
     padding: 10px 0px 10px 50px;
@@ -1251,7 +1251,7 @@ button > a:hover {
   height: 850px;
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .Pencil-pol {
     display: flex;
     position: absolute;
@@ -1287,7 +1287,7 @@ button > a:hover {
   height: 220px;
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .Registration {
   display: flex;
   flex-direction: column;
@@ -1311,7 +1311,7 @@ button > a:hover {
   width: 204px;
   height: 275px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .Registration2 {
   display: flex;
   flex-direction: column;
@@ -1332,7 +1332,7 @@ button > a:hover {
   flex-direction: column;
   font-size: 17px;
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .regist-body {
     display: flex;
     padding: 10px 0px 0px 55px;
@@ -1353,7 +1353,7 @@ h5 {
     font-weight: bold;
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   h5 {
    font-size: 19px;
    margin: 1px;
@@ -1378,7 +1378,7 @@ h5 {
   font-weight: bold;
 
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .Contact-Form  {
     max-width: 420px;
     position: absolute;
@@ -1432,7 +1432,7 @@ input[type=submit]:hover {
   font-weight: bold;
   
 }
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .contactus-body {
     display: flex;
     padding: 105px 0px 10px 100px;
@@ -1446,7 +1446,7 @@ input[type=submit]:hover {
 }
 
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .App {
     flex-direction: row-reverse;
     align-content: space-between;
@@ -1456,9 +1456,10 @@ input[type=submit]:hover {
   }
 }
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .nav-link-wrapper {
     display: flex;
+    
     flex-direction: column;
     background-color: white;
     padding: 98px 0px 0px 37px; 
@@ -1469,7 +1470,7 @@ input[type=submit]:hover {
 
 
 
-@media(max-width: 414px) {
+@media(max-width: 514px) {
   .text {
     
     padding: 15px 0px 15px 19px; 
