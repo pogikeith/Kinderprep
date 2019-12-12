@@ -119,6 +119,7 @@
   }
 }
 
+
 .GirlL {
   display:flex;
   height: 59px; 
@@ -224,6 +225,21 @@ h1{
 .Home-Image {
   text-align: center;
   padding: 25px; 
+}
+
+@media(max-width: 615px) {
+  .Home-Image  {
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    
+    width: 395px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1.2px;
+
+  }
 }
 
 a {
@@ -1160,7 +1176,7 @@ button > a:hover {
     flex-direction: column;
     position: absolute;
     left: 329px;
-    top: 592px;
+    top: 562px;
     padding: 0px 0px 0px 0px;
     
   }
