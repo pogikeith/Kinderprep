@@ -560,8 +560,8 @@ a:hover {
   display: flex;
   position: absolute;
   text-align: center;
-  right: 50px;
-  width: 73%;
+  right: 40px;
+  width: 75%;
   margin: 65px 0px 0px 0px;
   padding: 55px 0px 0px 0px;
   color: rgb(1, 1, 17);
@@ -794,9 +794,9 @@ a:hover {
   flex-direction: column;
   position: absolute;
   right: 95px;
-  top: 4799px;
+  top: 4999px;
   padding: 0px 0px 0px 0px;
-  font-size: 11px;
+  font-size: 13px;
   }
 }
 
@@ -975,7 +975,7 @@ h4 {
   position: absolute;
   text-align: center;
   right: 35px;
-  top: 410px;
+  top: 400px;
   width: 79%;
   margin: 1px 0px 0px 10px;
   padding: 1px 0px 0px 0px;
@@ -1008,7 +1008,7 @@ h4 {
     position: absolute;
     text-align: center;
     right: 0px;
-    top: 500px;
+    top: 495px;
     width: 69%;
     margin: 1px 0px 0px 10px;
     padding: 1px 0px 0px 0px;
@@ -1038,8 +1038,8 @@ h4 {
   display: flex;
   flex-direction: column;
   position: absolute;
-  RIGHT: 110px;
-  top: 589px;
+  RIGHT: 90px;
+  top: 599px;
   padding: 10px 1px 0px 0px;
   margin: 10px 1px 1px 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1070,7 +1070,7 @@ button > a {
   button > a {
   display: flex;
   position: absolute;
-  top: 540px;
+  top: 550px;
   right: 65px;
   background-color: blue;
   border: none;
@@ -1111,8 +1111,9 @@ button > a:hover {
     flex-direction: column;
     position: absolute;
     left: 269px;
-    top: 629px;
+    top: 659px;
     padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     
   }
 }
@@ -1128,7 +1129,7 @@ button > a:hover {
 @media(max-width: 714px) {
   .fire {
   padding: 5px;
-  margin: 10px;
+  margin: 10px 0px -15px 0px;
   height: 107px;
   width: 151px;
     
@@ -1144,10 +1145,10 @@ button > a:hover {
 }
 @media(max-width: 714px) {
   .fire1 {
-  padding: 5px;
-  margin: 10px;
-  height: 107px;
-  width: 151px;
+    padding: 5px;
+    margin: 10px 0px -15px 0px;
+    height: 107px;
+    width: 151px;
     
   }
 }
@@ -1162,10 +1163,10 @@ button > a:hover {
 }
 @media(max-width: 714px) {
   .fire2 {
-  padding: 5px;
-  margin: 10px;
-  height: 107px;
-  width: 151px;
+    padding: 5px;
+    margin: 10px 0px -15px 0px;
+    height: 107px;
+    width: 151px;
     
   }
 }
@@ -1312,8 +1313,8 @@ button > a:hover {
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 310px;
-  top: 1065px;
+  right: 180px;
+  top: 1265px;
   padding: 0px 0px 0px 0px;
   width: 125px;
   height: 99px;
@@ -1336,8 +1337,8 @@ button > a:hover {
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 170px;
-  top: 1065px;
+  right: 35px;
+  top: 1265px;
   padding: 0px 0px 0px 0px;
   width: 125px;
   height: 99px;
@@ -1492,10 +1493,10 @@ input[type=submit]:hover {
 @media(max-width: 714px) {
   .CopyR {
     position: absolute;
-    bottom: -5085px;
+    bottom: -5185px;
     width:12px 12px;
     height: 30px;
-    left: 40px;
+    left: 37px;
     padding: 0px 0px 9px 0px;
   }
 }
@@ -1513,7 +1514,7 @@ h1{
 @media(max-width: 714px) {
   h1 {
     position: absolute;
-    bottom: -5099px;
+    bottom: -5199px;
     width:12px 12px;
     height: 30px;
     left: 20px;
