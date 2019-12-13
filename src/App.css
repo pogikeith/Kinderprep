@@ -192,31 +192,11 @@
     bottom: -3527px;
     width:12px 12px;
     height: 30px;
-    left: 100px;
+    left: 50px;
     padding: 0px 0px 9px 0px;
   }
 }
 
-h1{
-  position: absolute;
-  bottom: -2390px;
-  right: 0;
-  left: 0;
-  width: 10px 10px;
-  font-size: 12px;
-  color: blue;
-  padding: 8px;
-}
-@media(max-width: 714px) {
-  h1 {
-    position: absolute;
-    bottom: -3540px;
-    width:12px 12px;
-    height: 30px;
-    left: 20px;
-    padding: 0px 0px 9px 0px;
-  }
-}
 
 
 
@@ -260,7 +240,7 @@ a {
     font-weight: bold;
     font-size: 18px;
     margin-top: 0px;
-    padding: 12px;
+    padding: 12.5px;
 
   }
 }
@@ -484,6 +464,7 @@ a:hover {
 @media(max-width: 714px) {
   .Amber {
   display: flex;
+  visibility: hidden;
   position: absolute;
   right: 6px;
   bottom: -55px;
@@ -507,8 +488,9 @@ a:hover {
 @media(max-width: 714px) {
   .Jill {
   display: flex;
-  position: absolute;
-  right: 6px;
+  visibility: hidden;
+  flex-direction: column;
+  right: 0px;
   bottom: -650px;
   height: 119px;
   width: 90px;
@@ -528,13 +510,8 @@ a:hover {
 
 @media(max-width: 714px) {
   .Room1 {
-  display: flex;
-  position: absolute;
-  right: 2px;
-  bottom: -2230px;
-  height: 119px;
-  width: 168px;
-    
+ visibility: hidden;
+  
   }
 }
 
@@ -549,18 +526,20 @@ a:hover {
 
 @media(max-width: 714px) {
   .Room2 {
+    visibility: hidden;
   display: flex;
   position: absolute;
   right: 355px;
-  bottom: -2230px;
-  height: 119px;
-  width: 168px;
+  bottom: -2790px;
+  height: 108px;
+  width: 151px;
     
   }
 }
 
 .Room3 {
   display: flex;
+  visibility: hidden;
   padding: 5px;
   flex-direction: column;
   margin: 5px;
@@ -574,9 +553,9 @@ a:hover {
       display: flex;
       position: absolute;
       right: 179px;
-      bottom: -2230px;
-      height: 119px;
-      width: 168px;
+      bottom: -2790px;
+      height: 108px;
+      width: 151px;
     
   }
 }
@@ -633,7 +612,7 @@ a:hover {
   font-size: 19px;
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .header-cur {
   display: flex;
   position: absolute;
@@ -663,9 +642,9 @@ a:hover {
 @media(max-width: 714px) {
   .header-cur-body {
     display: flex;
-    width: 78%;
+    width: 75%;
     margin: 37px 0px 0px 35px;
-    padding: 279px 0px 0px 70px;
+    padding: 305px 0px 0px 70px;
     color: rgb(1, 1, 17);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 19px;
@@ -871,8 +850,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 13px;
-  top: 1059px;
+  right: 95px;
+  top: 459px;
   padding: 0px 0px 0px 0px;
   font-size: 11px;
   }
@@ -1517,6 +1496,39 @@ input[type=submit]:hover {
     
   }
 }
+
+@media(max-width: 714px) {
+  .CopyR {
+    position: absolute;
+    bottom: -4227px;
+    width:12px 12px;
+    height: 30px;
+    left: 50px;
+    padding: 0px 0px 9px 0px;
+  }
+}
+
+h1{
+  position: absolute;
+  bottom: -2390px;
+  right: 0;
+  left: 0;
+  width: 10px 10px;
+  font-size: 12px;
+  color: blue;
+  padding: 8px;
+}
+@media(max-width: 714px) {
+  h1 {
+    position: absolute;
+    bottom: -4239px;
+    width:12px 12px;
+    height: 30px;
+    left: 20px;
+    padding: 0px 0px 9px 0px;
+  }
+}
+
 
 
 
