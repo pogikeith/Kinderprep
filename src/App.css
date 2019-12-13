@@ -186,17 +186,6 @@
   padding: 0px 0px 9px 0px;
 
 }
-@media(max-width: 714px) {
-  .CopyR {
-    position: absolute;
-    bottom: -3527px;
-    width:12px 12px;
-    height: 30px;
-    left: 50px;
-    padding: 0px 0px 9px 0px;
-  }
-}
-
 
 
 
@@ -257,7 +246,8 @@ a:hover {
 
 @media(max-width: 615px) {
   a:hover {
-  background-color: white;
+  background-color: rgb(3, 1, 1);
+  background: none;
   text-decoration: none; 
   transition: 0.4s;
   letter-spacing: 2.5px;
@@ -845,13 +835,13 @@ a:hover {
   padding: 0px 0px 0px 0px;
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .dinodig {
   display: flex;
   flex-direction: column;
   position: absolute;
   right: 95px;
-  top: 459px;
+  top: 4589px;
   padding: 0px 0px 0px 0px;
   font-size: 11px;
   }
@@ -866,7 +856,7 @@ a:hover {
   width: 321px;
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .Dinodig {
     padding: 5px;
     margin: 5px;
@@ -885,7 +875,7 @@ a:hover {
   width: 238px;
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .Dinodig2 {
     padding: 5px;
     margin: 5px;
@@ -903,7 +893,7 @@ a:hover {
   height: 227px;
   width: 321px;
 }
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .Dinodig3 {
     padding: 5px;
     margin: 5px;
@@ -1026,7 +1016,7 @@ h4 {
   font-weight: bold;
   font-size: 19px;
 }
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .heading-calendar {
   display: flex;
   position: absolute;
@@ -1059,7 +1049,7 @@ h4 {
   font-size: 19px;
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .heading-events {
     display: flex;
     position: absolute;
@@ -1500,10 +1490,10 @@ input[type=submit]:hover {
 @media(max-width: 714px) {
   .CopyR {
     position: absolute;
-    bottom: -4227px;
+    bottom: -4829px;
     width:12px 12px;
     height: 30px;
-    left: 50px;
+    left: 40px;
     padding: 0px 0px 9px 0px;
   }
 }
@@ -1521,13 +1511,28 @@ h1{
 @media(max-width: 714px) {
   h1 {
     position: absolute;
-    bottom: -4239px;
+    bottom: -4839px;
     width:12px 12px;
     height: 30px;
     left: 20px;
     padding: 0px 0px 9px 0px;
   }
 }
+
+@media(max-width: 615px) {
+  #students {
+    left: 150px;
+    top: 230px;
+    font-weight: bold;
+    position: relative;
+    text-align: Left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 0.2px solid rgb(12, 9, 9);
+    width: 29%;
+  }
+}
+
 
 
 
