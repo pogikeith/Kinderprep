@@ -48,11 +48,11 @@
   margin: 1px 0px 0px 1px;
  
 }
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .Sun1 {
     display: flex; 
-    height: 64px;
-    width: 88px;
+    height: 58px;
+    width: 80px;
     position: absolute;
     left: -1px;
     top:0;
@@ -111,7 +111,7 @@
   width: 16px;
   position: absolute;
   align-items: right;
-  left: 71px;
+  left: 61px;
   border: 0px solid rgb(241, 243, 243);
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -140,7 +140,7 @@
   width: 16px;
   position: absolute;
   align-items: right;
-  right: 90px;
+  right: 75px;
   border: 0px solid rgb(241, 243, 243);
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -169,7 +169,7 @@
   width: 16px;
   position: absolute;
   align-items: right;
-  left: 105px;
+  left: 90px;
   border: 0px solid rgb(241, 243, 243);
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -233,7 +233,7 @@ h1{
     flex-direction: column;
     color: blue;
     
-    width: 395px;
+    width: 35px;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -322,7 +322,7 @@ a:hover {
   font-size: 19px;
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .Text-Home {
     text-align: center;
     padding: 45px 0px 10px 25px; 
@@ -356,7 +356,7 @@ a:hover {
 }
 
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .heading-about {
   text-align: center;
   padding: 50px 0px 0px 0px; 
@@ -380,7 +380,7 @@ a:hover {
   font-weight: bold;
   font-size: 29px;
 }
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .testimonials {
   display: flex;
   width: 19%;
@@ -403,7 +403,7 @@ a:hover {
   padding: 25px 0px 0px 115px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .text-reviews {
     display: flex; 
     width: 75%;
