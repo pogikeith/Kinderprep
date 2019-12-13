@@ -228,9 +228,10 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 0px;
-    padding: 12.5px;
-
+    margin: 0px;
+    padding: 6.5px;
+    /* margin-top: 0px;
+    padding: 12.5px; */
   }
 }
 
