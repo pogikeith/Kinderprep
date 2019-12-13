@@ -1007,7 +1007,7 @@ h4 {
     display: flex;
     position: absolute;
     text-align: center;
-    right: 20px;
+    right: 28px;
     top: 495px;
     width: 75%;
     margin: 1px 0px 0px 10px;
@@ -1066,7 +1066,7 @@ button > a {
   cursor: pointer;
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   button > a {
   display: flex;
   position: absolute;
@@ -1087,15 +1087,26 @@ button > a {
 
 
 button > a:hover {
-  background-color: rgb(73, 136, 230);
-  letter-spacing: 1.5px;
+  background-color: rgb(211, 217, 226);
   text-decoration: none; 
-  transition: 0.5s;
-  letter-spacing: 1.5px;
+  transition: 0.4s;
+  letter-spacing: 1.25px;
   font-size: 110%;
-  color: rgb(250, 252, 252);
+  color: rgb(4, 7, 7);
  
 }
+
+@media(max-width: 714px) {
+  button > a:hover {
+    background-color: rgb(211, 217, 226);
+    text-decoration: none; 
+    transition: 0.4s;
+    letter-spacing: 1.25px;
+    font-size: 110%;
+    color: rgb(248, 56, 175);
+  }
+}
+
 
 .firepics {
   display: flex;
