@@ -22,8 +22,8 @@
 @media(max-width: 714px) {
   .App-logo {
     width: 50%;
-    padding: 1px 0px 1px 1px; 
-    margin: 0px 0px 1px 0px; 
+    padding: 1px 5px 1px 5px; 
+    margin: 1px 0px -18px 10px; 
     
   }
 }
@@ -255,12 +255,12 @@ a {
   a {
     display: flex;
     flex-direction: column;
-    color: blue;
+    color: rgb(12, 101, 136);
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
     margin-top: 0px;
-    padding: 3px;
+    padding: 15px;
 
   }
 }
@@ -278,14 +278,12 @@ a:hover {
 @media(max-width: 714px) {
   a:hover {
   background-color: skyblue;
-
-  letter-spacing: 1.5px;
   text-decoration: none; 
   transition: 0.4s;
   letter-spacing: 3px;
   font-size: 110%;
   color: white;
-    
+ 
   }
 }
 
@@ -1431,11 +1429,12 @@ h5 {
 }
 @media(max-width: 714px) {
   .Contact-Form  {
-    max-width: 420px;
+    max-width: 230px;
     position: absolute;
     right: 0px;
     top: 610px;
-    margin: 0 auto;
+    margin: 25px;
+    padding: 10px;
     text-align: left;
     color:blue;
     font-weight: bold;
@@ -1486,8 +1485,8 @@ input[type=submit]:hover {
 @media(max-width: 714px) {
   .contactus-body {
     display: flex;
-    padding: 105px 0px 10px 100px;
-    margin: 25px 0px 0px 35px;
+    padding: 105px 0px 10px 99px;
+    margin: 25px 0px 0px 5px;
     width: 74%;
     flex-direction: column;
     font-size: 19px;
@@ -1497,7 +1496,7 @@ input[type=submit]:hover {
 }
 
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .App {
     flex-direction: row-reverse;
     align-content: space-between;
@@ -1513,7 +1512,7 @@ input[type=submit]:hover {
     
     flex-direction: column;
     background-color: white;
-    padding: 98px 0px 0px 37px; 
+    padding: 99px 0px 0px 0px; 
     margin: 15px 0px 0px 17px; 
     
   }
@@ -1521,11 +1520,11 @@ input[type=submit]:hover {
 
 
 
-@media(max-width: 714px) {
+/* @media(max-width: 714px) {
   .text {
     
     padding: 15px 0px 15px 19px; 
     margin: 0px 0px 13px 0px; 
     
   }
-}
+} */
