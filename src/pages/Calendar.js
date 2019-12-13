@@ -19,7 +19,7 @@ class Calendar extends React.Component {
 
       <div className = "heading-calendar">
              KinderPrep Preschool follows the Sahuarita School District<br></br>
-Calendar for School Days and Holidays
+              Calendar for School Days and Holidays
             </div>
 
             <div className = "heading-events">

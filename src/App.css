@@ -235,23 +235,23 @@ a {
 }
 
 a:hover {
-  background-color: rgb(18, 5, 94);
+  background-color: none;
   letter-spacing: 1.55px;
   text-decoration: none; 
-  transition: 0.7s;
-  letter-spacing: 3px;
+  transition: 0.5s;
+  letter-spacing: 2px;
   font-size: 115%;
-  color: rgb(220, 217, 238);
+  color: rgb(236, 17, 72);
 }
 
 @media(max-width: 615px) {
   a:hover {
-  background-color: rgb(3, 1, 1);
+  border: none;
   background: none;
   text-decoration: none; 
   transition: 0.4s;
-  letter-spacing: 2.5px;
-  font-size: 90%;
+  letter-spacing: 1.5px;
+  font-size: 95%;
   color: rgb(221, 83, 198);
  
   }
@@ -1007,7 +1007,7 @@ h4 {
     display: flex;
     position: absolute;
     text-align: center;
-    right: 15px;
+    right: 20px;
     top: 495px;
     width: 75%;
     margin: 1px 0px 0px 10px;
