@@ -1007,7 +1007,7 @@ h4 {
     display: flex;
     position: absolute;
     text-align: center;
-    right: 0px;
+    right: 15px;
     top: 495px;
     width: 75%;
     margin: 1px 0px 0px 10px;
@@ -1038,7 +1038,7 @@ h4 {
   display: flex;
   flex-direction: column;
   position: absolute;
-  RIGHT: 35px;
+  RIGHT: 45px;
   top: 599px;
   padding: 10px 1px 0px 0px;
   margin: 10px 1px 1px 0px;
@@ -1314,7 +1314,7 @@ button > a:hover {
   flex-direction: column;
   position: absolute;
   right: 180px;
-  top: 1265px;
+  top: 1245px;
   padding: 0px 0px 0px 0px;
   width: 125px;
   height: 99px;
@@ -1338,7 +1338,7 @@ button > a:hover {
   flex-direction: column;
   position: absolute;
   right: 35px;
-  top: 1265px;
+  top: 1245px;
   padding: 0px 0px 0px 0px;
   width: 125px;
   height: 99px;
