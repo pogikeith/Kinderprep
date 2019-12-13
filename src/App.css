@@ -275,14 +275,14 @@ a:hover {
   color: rgb(220, 217, 238);
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   a:hover {
-  background-color: skyblue;
+  background-color: white;
   text-decoration: none; 
   transition: 0.4s;
   letter-spacing: 2.5px;
   font-size: 90%;
-  color: rgb(8, 6, 6);
+  color: rgb(221, 83, 198);
  
   }
 }
