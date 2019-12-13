@@ -225,18 +225,20 @@ h1{
 .Home-Image {
   text-align: center;
   padding: 25px; 
+  margin: 0px;
 }
 
 @media(max-width: 615px) {
   .Home-Image  {
     display: flex;
     flex-direction: column;
-    color: blue;
     
-    width: 35px;
+    color: blue;
+    width: 390px;
+   
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    
     margin: 1.2px;
 
   }
@@ -257,7 +259,8 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
-    margin: 1.2px;
+    margin-top: 0px;
+    padding: 3px;
 
   }
 }
@@ -341,6 +344,18 @@ a:hover {
   color: blue;
   font-weight: bold;
   font-size: 19px;
+}
+
+@media(max-width: 615px) {
+  .Text-Home-Bottom {
+    display: flex;
+    padding: 20px 0px 10px 15px; 
+    margin: 70px 0px 10px 5px;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    
+  }
 }
 
 /* about us page */
@@ -1492,14 +1507,14 @@ input[type=submit]:hover {
   }
 }
 
-@media(max-width: 714px) {
+@media(max-width: 615px) {
   .nav-link-wrapper {
     display: flex;
     
     flex-direction: column;
     background-color: white;
     padding: 98px 0px 0px 37px; 
-    margin: 6px 0px 0px 17px; 
+    margin: 15px 0px 0px 17px; 
     
   }
 }
