@@ -228,8 +228,8 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    margin: 0px;
-    padding: 10.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 11.0px;
     /* margin-top: 0px;
     padding: 12.5px; */
   }
